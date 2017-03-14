@@ -1,0 +1,571 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    /*font-size:100%;*/
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body{
+	width: 995px;
+	min-height: 775px;
+	margin:auto;
+}
+.header-1{
+	min-height: 155px;
+}
+.container{
+	min-height: 568px;
+	background-color: #f7f7f7;
+	display: inline-block;
+	width: 995px;
+	
+}
+footer{
+	height: 55px;
+	background-color: #9f9fa0;
+	text-align: center;
+	color: #ffffff;
+}
+footer p{
+	padding: 22px;
+}
+.login-Section{
+	min-height: 286px;
+	width: 390px;
+	background-color: #eeeeee;
+	margin: 85px 0 0 300px;
+    display: inline-block;
+}
+.login{
+    margin: 65px 0 0 25px;
+    
+
+}
+.user-name {
+    padding-right: 10px;
+    margin-bottom: 22px;
+    display: inline-block;
+}
+.uname{
+    margin-left: 10px;
+}
+
+.password {
+    
+    margin-bottom: 22px;
+
+}
+.pwd{
+    margin-left: 21px;
+}
+.sub{
+    margin-left: 100px;
+    height: 22px;
+    width: 75px;
+
+}
+.submit{
+    display: inline-block;
+}
+.login-title{
+    margin: 15px 10px 5px 17px;
+    border-bottom:0.5px solid #808080;
+    padding:10px;
+    background-color: #eeeeee;
+    color: #4f4b45;
+}
+.welcomeMessage{
+    position: absolute;
+    top: 6%;
+    display: inline-block;
+}
+.currentUser{
+    color: #e0770e;
+}
+.welcomeMessage a{
+    text-decoration: none;
+}
+.welcomeMessage p{
+    display: inline-block;
+    color: #747373;
+ }   
+#login-Input{
+    width: 186px;
+    height: 25px;
+}
+.login a{
+    text-decoration: none;
+}
+.tabmenu {margin-top: -20px; border-bottom: 1px solid;}
+.tabmenu li.active {border: 1px solid; border-bottom: 1px solid #fff;}
+.tabmenu li {display:inline; cursor: pointer; padding: 0 10px;}
+
+button.accordion {
+    background-color:#d7d4d4;
+    color: #3e3f40;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 25px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    /*transition: 0.5s;*/
+}
+
+div h3{
+    height:33px;
+    background-color:#0d9c49;
+    color: white;
+    padding: 5px;
+
+}
+div.panel {
+    padding: 0 18px;
+  
+    background-color: white;
+}
+.faq-section{
+    height: 650px;
+    background-color: #ffffff;
+}
+.faq-and-ans{
+    margin: 15px 30px 0 38px;
+}
+.panel p{
+    margin-bottom: 20px;
+}
+
+   /*---------------------------------------tab1--------------------------------------*/
+
+.employee-List-Container{
+    min-height: 815px;
+}
+.add-update{
+    height: 40px;
+    background-color:#0d9c49;
+    color: #ffffff;
+}
+.add-update p{
+    margin: 10px 0 0 30px;
+    display: inline-block;
+}
+.profile-Details{
+    min-height: 775px;
+    background-color: #f7f7f7;
+}
+.mage{
+    float: right;
+    margin: 30px 10px 0 0;
+    position: relative;
+    clear: both;
+}
+.profile-Title{
+    text-decoration: underline;
+    color: #555555;
+    margin: 10px 0 0 55px;
+    display: inline-block;
+}
+#emp-ID{
+    margin: 10px 0 0 40px;
+    color: #9d9d9d;
+}
+#emp-Name{
+    margin: 12px 0 0 18px;
+    color: #9d9d9d;
+}
+#emp-Titile{
+    margin:13px 0 0 80px;
+    color: #9d9d9d;
+}
+#emp-Titile label{
+    margin-right: 15px;
+}
+#emp-Titile select{
+        width: 221px;
+    height: 25px;
+}
+.aaa :active {
+    background-color:red;
+}
+#postion{
+    margin-left: 70px;
+
+}
+
+.radio-Button{
+    color: #9d9d9d;
+}
+input[type=radio]:checked + label {
+    color:#555555;
+}
+#comp-Title select{
+        width: 221px;
+    height: 25px;
+
+}
+#comp-Title{
+    margin:13px 0 0 43px;
+    color: #9d9d9d;
+}
+.emergency-Title{
+     text-decoration: underline;
+    color: #555555;
+    margin: 10px 0 0 43px;
+}
+.error-Message{
+    color:#ff0000;
+}
+#contact-Number{
+    margin-left: 10px;
+}
+#contactNumber{
+    margin: 10px 0 0 40px;
+    color: #9d9d9d;
+}
+#blood-Group{
+    color: #9d9d9d;
+    margin: 13px 0 0 40px;
+}
+
+.request-table td{    
+    padding-bottom: 15px;
+    }
+
+input[type=text]{
+    width: 216px;
+     height: 25px;
+}
+#address{
+ color: #9d9d9d;
+ margin: 13px 0 0 70px;   
+}
+#user-Message{
+    position: relative;
+    color: #9d9d9d;
+    margin: 13px 0 0 71px;
+}
+textarea {
+    resize:none;
+    position: absolute;
+    height:106px;
+    width: 216px;
+    margin-left: 4px;
+}
+
+#userMsg{
+    margin-top: 13px;
+}
+.save-button{
+margin: 132px 0 0 190px;
+    width: 85px;
+    font-weight: bold;
+}
+#employee-ID{
+    position: absolute;
+    margin:265px 0 0 495px;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 32px;
+}
+#employee-Name{
+    position: absolute;
+    margin: 202px 0 0 483px;
+    color: #000000;
+    font-size: 20px;
+    width: 175px;
+    height: 80px;
+}
+#contactnumber{
+        margin: -78px 0 0 855px;
+    position: absolute;
+    color: #000000;
+    font-weight: bolder;
+    font-size: smaller;
+}
+#bloodGroup{
+    position: absolute;
+    margin: -102px 0 0 775px;
+    color: #000000;
+    font-size: smaller;
+    font-weight: bolder;
+}
+#address{
+    position: absolute;
+    margin: -95px 0 0 757px;
+    color: #000000;
+    white-space: pre
+}
+#e-Name{
+    text-align: center;
+    word-break:break-all;
+}
+.database-Display{
+    margin-top: 40px;
+}
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+        width: 965px;
+    margin: 10px 0 0 13px;
+}
+
+.contact-column-list tr{
+    height:40px;
+}
+
+.row {
+    border: 1px solid #9a9999;
+    text-align: left;
+    
+}
+
+.contact-column-list tr:nth-child(even) {
+    background-color: #f3f2f2;
+}
+/*.table
+{
+    border-collapse: collapse;
+    margin: 10px 0 0 15px;
+}*/
+.contact-column-list th{
+    border: 1px 1px 0px 1px solid #e2e2e1;
+    background-color: #e2e2e1;
+}
+.content-contact td{
+    height: 20px;
+    padding: 3px;
+}
+.e-edit{
+    width:270px;
+     border: 1px solid #9a9999 ;
+     border-bottom: 0px;
+    text-align: left;
+    padding:10px;
+}
+.e-position{
+    width: 115px;
+     border: 1px solid #9a9999 ;
+    text-align: left;
+    padding:10px;
+}
+.e-competency{
+    width: 140px;
+     border: 1px solid #9a9999 ;
+    text-align: left;
+    padding:10px;
+}
+.e-title{
+    width: 55px;
+     border: 1px solid #9a9999;
+    text-align: left;
+    padding:10px;
+}
+.e-name{
+    width: 280px;
+     border: 1px solid #9a9999 ;
+    text-align: left;
+    padding:10px;
+}
+.e-id{
+    width: 138px;
+     border: 1px solid #9a9999 ;
+    text-align: left;
+    padding:10px;
+}
+.imag button{
+    margin-left: 25px;
+    background-color: #f9f9f9;
+    padding: 0;
+    border-width: 0px;
+}
+footer{
+    min-height: 54px;
+    background-color: #9f9fa0;
+}
+   
+/*---------------------------------------tab2-------------------------------------------*/
+.header-top{
+    min-height: 14px;
+    background-color: #0a67af;
+
+
+}
+.profile-text{
+    margin: 50px 0px 0px 100px;
+    color: #555555;
+}
+.designation-field{
+    margin-left: 10px;
+}
+.welcome-msg{
+    color: #e0770e;
+}
+.description{
+    
+    position: absolute;
+}
+.accesscard{
+
+    width: 1000px;
+    height: 141px;
+}
+.resource-request{
+    margin-top: 113px;
+    margin-left: 10px;
+}
+.frequent-question{
+    width: 90px;
+}
+.contents{
+    min-height: 600px;
+}
+.small-border{
+    min-height: 36px;
+    background-color: #0d9c49;
+}
+.border-description{
+    color: #f7f7f7;
+    display: inline-block;
+    margin: 10px 0 0 30px;
+}
+
+.profile-desc{
+
+    margin: 15px 0 15px 97px;
+    text-decoration: underline; 
+}
+.designation{
+    margin-left: 52px;
+
+}
+.select-designation{
+    width: 175px;
+    height: 30px;
+
+}
+.numbers{
+    margin-left: 72px;
+}
+.skills{
+    margin-left: 95px;
+}
+
+table input{
+margin:2px;
+}
+
+.table-request-list {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-request-list td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #dddddd;
+}
+footer{
+    min-height: 54px;
+    background-color: #9f9fa0;
+}
+#imag img{
+    margin-left: 25px;
+}
+
+#edit-button{
+    background-image: url(images/edit.png);
+    width: 34px;
+    height: 32px;
+
+}
